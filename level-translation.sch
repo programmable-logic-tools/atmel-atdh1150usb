@@ -1,0 +1,301 @@
+EESchema Schematic File Version 4
+LIBS:atmel-atdh1150usb-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Logic_LevelTranslator:SN74LVC1T45DBV U?
+U 1 1 5C43E0B9
+P 5900 1700
+AR Path="/5C43E0B9" Ref="U?"  Part="1" 
+AR Path="/5C43D82C/5C43E0B9" Ref="U1"  Part="1" 
+F 0 "U1" H 6250 1950 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 6250 1450 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5900 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 5000 1050 50  0001 C CNN
+	1    5900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_LevelTranslator:SN74LVC1T45DBV U?
+U 1 1 5C43E0C0
+P 5900 3000
+AR Path="/5C43E0C0" Ref="U?"  Part="1" 
+AR Path="/5C43D82C/5C43E0C0" Ref="U2"  Part="1" 
+F 0 "U2" H 6250 3250 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 6250 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5900 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 5000 2350 50  0001 C CNN
+	1    5900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_LevelTranslator:SN74LVC1T45DBV U?
+U 1 1 5C43E0C7
+P 5900 4300
+AR Path="/5C43E0C7" Ref="U?"  Part="1" 
+AR Path="/5C43D82C/5C43E0C7" Ref="U5"  Part="1" 
+F 0 "U5" H 6250 4550 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 6250 4050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5900 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 5000 3650 50  0001 C CNN
+	1    5900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_LevelTranslator:SN74LVC1T45DBV U?
+U 1 1 5C43E0CE
+P 5900 5600
+AR Path="/5C43E0CE" Ref="U?"  Part="1" 
+AR Path="/5C43D82C/5C43E0CE" Ref="U7"  Part="1" 
+F 0 "U7" H 6250 5850 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 6250 5350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5900 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 5000 4950 50  0001 C CNN
+	1    5900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C43E0D5
+P 5900 3400
+AR Path="/5C43E0D5" Ref="#PWR?"  Part="1" 
+AR Path="/5C43D82C/5C43E0D5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 3150 50  0001 C CNN
+F 1 "GND" H 5905 3227 50  0000 C CNN
+F 2 "" H 5900 3400 50  0001 C CNN
+F 3 "" H 5900 3400 50  0001 C CNN
+	1    5900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C43E0DB
+P 5900 2100
+AR Path="/5C43E0DB" Ref="#PWR?"  Part="1" 
+AR Path="/5C43D82C/5C43E0DB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 1850 50  0001 C CNN
+F 1 "GND" H 5905 1927 50  0000 C CNN
+F 2 "" H 5900 2100 50  0001 C CNN
+F 3 "" H 5900 2100 50  0001 C CNN
+	1    5900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C43E0E1
+P 5900 4700
+AR Path="/5C43E0E1" Ref="#PWR?"  Part="1" 
+AR Path="/5C43D82C/5C43E0E1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 4450 50  0001 C CNN
+F 1 "GND" H 5905 4527 50  0000 C CNN
+F 2 "" H 5900 4700 50  0001 C CNN
+F 3 "" H 5900 4700 50  0001 C CNN
+	1    5900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C43E0E7
+P 5900 6000
+AR Path="/5C43E0E7" Ref="#PWR?"  Part="1" 
+AR Path="/5C43D82C/5C43E0E7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5900 5750 50  0001 C CNN
+F 1 "GND" H 5905 5827 50  0000 C CNN
+F 2 "" H 5900 6000 50  0001 C CNN
+F 3 "" H 5900 6000 50  0001 C CNN
+	1    5900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5C43F290
+P 6000 3900
+F 0 "#PWR?" H 6000 3750 50  0001 C CNN
+F 1 "VBUS" H 6015 4073 50  0000 C CNN
+F 2 "" H 6000 3900 50  0001 C CNN
+F 3 "" H 6000 3900 50  0001 C CNN
+	1    6000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5C43F2AA
+P 6000 5200
+F 0 "#PWR?" H 6000 5050 50  0001 C CNN
+F 1 "VBUS" H 6015 5373 50  0000 C CNN
+F 2 "" H 6000 5200 50  0001 C CNN
+F 3 "" H 6000 5200 50  0001 C CNN
+	1    6000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5C43F33C
+P 6000 2600
+F 0 "#PWR?" H 6000 2450 50  0001 C CNN
+F 1 "VBUS" H 6015 2773 50  0000 C CNN
+F 2 "" H 6000 2600 50  0001 C CNN
+F 3 "" H 6000 2600 50  0001 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5C43F34F
+P 6000 1300
+F 0 "#PWR?" H 6000 1150 50  0001 C CNN
+F 1 "VBUS" H 6015 1473 50  0000 C CNN
+F 2 "" H 6000 1300 50  0001 C CNN
+F 3 "" H 6000 1300 50  0001 C CNN
+	1    6000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C43F5B8
+P 5800 1300
+F 0 "#PWR?" H 5800 1150 50  0001 C CNN
+F 1 "+3V3" H 5815 1473 50  0000 C CNN
+F 2 "" H 5800 1300 50  0001 C CNN
+F 3 "" H 5800 1300 50  0001 C CNN
+	1    5800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C43F5D2
+P 5800 2600
+F 0 "#PWR?" H 5800 2450 50  0001 C CNN
+F 1 "+3V3" H 5815 2773 50  0000 C CNN
+F 2 "" H 5800 2600 50  0001 C CNN
+F 3 "" H 5800 2600 50  0001 C CNN
+	1    5800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C43F5E9
+P 5800 3900
+F 0 "#PWR?" H 5800 3750 50  0001 C CNN
+F 1 "+3V3" H 5815 4073 50  0000 C CNN
+F 2 "" H 5800 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0001 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C43F5FC
+P 5800 5200
+F 0 "#PWR?" H 5800 5050 50  0001 C CNN
+F 1 "+3V3" H 5815 5373 50  0000 C CNN
+F 2 "" H 5800 5200 50  0001 C CNN
+F 3 "" H 5800 5200 50  0001 C CNN
+	1    5800 5200
+	1    0    0    -1  
+$EndComp
+Text HLabel 7000 3000 2    50   Output ~ 0
+TDI_OUT
+Wire Wire Line
+	6600 3000 6300 3000
+Text HLabel 5200 3000 0    50   Input ~ 0
+TDI_IN
+Text HLabel 5200 5600 0    50   Input ~ 0
+TMS_IN
+Text HLabel 5200 1700 0    50   Input ~ 0
+TCK_IN
+Text HLabel 7000 4300 2    50   Input ~ 0
+TDO_IN
+Text HLabel 5200 4300 0    50   Output ~ 0
+TDO_OUT
+Text HLabel 7000 5600 2    50   Output ~ 0
+TMS_OUT
+Wire Wire Line
+	6550 5600 6300 5600
+$Comp
+L Device:R_Small R?
+U 1 1 5C44CDDB
+P 6650 5600
+AR Path="/5C44CDDB" Ref="R?"  Part="1" 
+AR Path="/5C43D82C/5C44CDDB" Ref="R13"  Part="1" 
+F 0 "R13" V 6550 5600 50  0000 C CNN
+F 1 "100R" V 6750 5600 50  0000 C CNN
+F 2 "" H 6650 5600 50  0001 C CNN
+F 3 "~" H 6650 5600 50  0001 C CNN
+	1    6650 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 3000 6800 3000
+Wire Wire Line
+	7000 5600 6750 5600
+$Comp
+L Device:R_Small R?
+U 1 1 5C44D139
+P 6700 3000
+AR Path="/5C44D139" Ref="R?"  Part="1" 
+AR Path="/5C43D82C/5C44D139" Ref="R6"  Part="1" 
+F 0 "R6" V 6600 3000 50  0000 C CNN
+F 1 "100R" V 6800 3000 50  0000 C CNN
+F 2 "" H 6700 3000 50  0001 C CNN
+F 3 "~" H 6700 3000 50  0001 C CNN
+	1    6700 3000
+	0    1    1    0   
+$EndComp
+Text HLabel 7000 1700 2    50   Output ~ 0
+TCK_OUT
+Wire Wire Line
+	6600 1700 6300 1700
+Wire Wire Line
+	7000 1700 6800 1700
+$Comp
+L Device:R_Small R?
+U 1 1 5C450172
+P 6700 1700
+AR Path="/5C450172" Ref="R?"  Part="1" 
+AR Path="/5C43D82C/5C450172" Ref="R5"  Part="1" 
+F 0 "R5" V 6600 1700 50  0000 C CNN
+F 1 "100R" V 6800 1700 50  0000 C CNN
+F 2 "" H 6700 1700 50  0001 C CNN
+F 3 "~" H 6700 1700 50  0001 C CNN
+	1    6700 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 4300 6300 4300
+Wire Wire Line
+	7000 4300 6800 4300
+$Comp
+L Device:R_Small R?
+U 1 1 5C4508FF
+P 6700 4300
+AR Path="/5C4508FF" Ref="R?"  Part="1" 
+AR Path="/5C43D82C/5C4508FF" Ref="R8"  Part="1" 
+F 0 "R8" V 6600 4300 50  0000 C CNN
+F 1 "33R" V 6800 4300 50  0000 C CNN
+F 2 "" H 6700 4300 50  0001 C CNN
+F 3 "~" H 6700 4300 50  0001 C CNN
+	1    6700 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 5600 5500 5600
+Wire Wire Line
+	5200 4300 5500 4300
+Wire Wire Line
+	5200 3000 5500 3000
+Wire Wire Line
+	5200 1700 5500 1700
+$EndSCHEMATC
